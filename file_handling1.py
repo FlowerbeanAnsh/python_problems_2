@@ -1,0 +1,6 @@
+f = open("new.txt","w")
+f.write("ANSH SAXENA\n")
+f.close()
+f = open("new.txt","a")
+f.write(" how are you dear")
+f.close()

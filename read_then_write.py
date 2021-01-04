@@ -1,0 +1,6 @@
+f= open('python.txt','r+')
+data=f.read()
+t=f.tell()
+f.write('saxena')
+print(data)
+print(t)
